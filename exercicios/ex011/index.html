@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Médias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates facere debitis repellendus obcaecati, explicabo enim incidunt. Repudiandae eius earum sint necessitatibus temporibus. Accusantium autem optio quibusdam ut consequuntur architecto itaque!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5.</p>
+    <audio src="midia/hereitcomes-tracktribe.mp3" controls autoplay></audio>
+    <audio preload="metadata" controls>
+        <source src="midia/hereitcomes-tracktribe.mp3" type="audio/mpeg">
+        <p>Download <a href="midia/hereitcomes-tracktribe.mp3"></p></a>
+    </audio>
+
+    <h1>Reproduzindo Videos</h1>
+    
+</body>
+</html>

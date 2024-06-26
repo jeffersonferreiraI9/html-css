@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        header {
+            background-color: rosybrown;
+            color: blue;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: blueviolet;
+            text-align: left;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.500);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        main {
+            background-color: blanchedalmond;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px 20px 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.500);
+        }
+        aside {
+            background-color: black;
+            color: white;
+        }
+        footer {
+            background-color: azure;
+            color: blue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer >p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p>Sem assunto</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus omnis ipsa nihil dolore, praesentium aspernatur quam odit, beatae quibusdam adipisci quod officiis ea enim necessitatibus reiciendis quos at? Ea, odio.</p>
+                <aside>
+                    <p>Texto por</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
