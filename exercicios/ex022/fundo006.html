@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
+            https://jeffersonferreirai9.github.io/html-css/exercicios/ex022/fundo006.html
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            /*
+        shorthand - background
+        color > iamge > position > repeat > [size] > attachment
+        */
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
         }
+
+        
 
         main {
             background-color: white;
@@ -22,13 +35,14 @@
             border: 1px solid darkblue;
             border-radius: 15px;
         }
+        
 
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae atque! Laboriosam quas excepturi autem animi ipsum magnam voluptas. Atque laboriosam sequi excepturi debitis dignissimos ipsam itaque. Dolorem, nostrum temporibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem vero rem dicta quia consequatur, alias quae doloribus minima nesciunt repudiandae neque labore sapiente eaque dolorum animi, quaerat totam eum. Placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, itaque? Voluptas facilis nobis ipsa doloribus sunt aspernatur hic illum reprehenderit, ducimus distinctio et. Libero magni necessitatibus animi, laudantium eius ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae atque! Laboriosam quas excepturi autem animi ipsum magnam voluptas. Atque laboriosam sequi excepturi debitis dignissimos ipsam itaque. Dolorem, nostrum temporibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem vero rem dicta quia consequatur, alias quae doloribus minima nesciunt repudiandae neque labore sapiente eaque dolorum animi, quaerat totam eum. Placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, itaque? Voluptas facilis nobis ipsa doloribus sunt aspernatur hic illum reprehenderit, ducimus distinctio et. Libero magni necessitatibus animi, laudantium eius ullam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae atque! Laboriosam quas excepturi autem animi ipsum magnam voluptas. Atque laboriosam sequi excepturi debitis dignissimos ipsam itaque. Dolorem, nostrum temporibus.</p>
     </main>
 </body>
 </html>
